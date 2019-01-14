@@ -13,6 +13,8 @@
   <a href="https://badge.fury.io/js/curtail"><img src="https://img.shields.io/github/license/robertcorponoi/curtail.svg" alt="license" height="18"></a>
 </div>
 
+**peetcamron:** Quickly added Babel transpile from ES6 to ES5 for our needs. Let's do something better later.
+
 
 **Note:** Curtail is still in its early stages and as such has limited functionality. Make sure to check back every now and again for exciting new features!
 

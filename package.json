@@ -1,6 +1,6 @@
 {
   "name": "curtail",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Curtail is a pure JavaScript image manipulation tool.",
   "main": "dist/curtail.js",
   "scripts": {
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peetcamron/curtail.git"
+    "url": "git+https://github.com/robertcorponoi/curtail.git"
   },
   "keywords": [
     "image",
     "crop",
     "format"
   ],
-    "files": [
-        "dist/"
-    ],
+  "files": [
+    "dist/"
+  ],
   "author": "Robert Corponoi",
   "license": "MIT",
   "bugs": {
