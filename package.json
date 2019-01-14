@@ -2,9 +2,11 @@
   "name": "curtail",
   "version": "2.0.0",
   "description": "Curtail is a pure JavaScript image manipulation tool.",
-  "main": "curtail.js",
+  "main": "dist/curtail.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha"
+    "test": "node_modules/.bin/mocha",
+    "prepare": "npm run build",
+    "build": "babel curtail.js -d dist --source-maps"
   },
   "repository": {
     "type": "git",
@@ -15,18 +17,6 @@
     "crop",
     "format"
   ],
-  "browserify": {
-    "transform": [
-      [
-        "babelify",
-        {
-          "presets": [
-            "@babel/preset-env"
-          ]
-        }
-      ]
-    ]
-  },
   "author": "Robert Corponoi",
   "license": "MIT",
   "bugs": {
@@ -34,10 +24,9 @@
   },
   "homepage": "https://github.com/robertcorponoi/curtail#readme",
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
-    "babelify": "^10.0.0",
-    "browserify": "^16.2.3",
     "chai": "^4.1.2",
     "mocha": "^5.2.0"
   },
