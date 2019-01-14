@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node_modules/.bin/mocha",
     "prepare": "npm run build",
-    "build": "babel curtail.js -d dist --source-maps"
+    "build": "babel *.js -d dist --source-maps"
   },
   "repository": {
     "type": "git",

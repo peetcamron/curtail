@@ -63,5 +63,5 @@ typings/
 # vuepress build output
 .vuepress/dist
 
-dist/curtail.js
-dist/curtail.js.map
+dist/*.js
+dist/*.js.map
