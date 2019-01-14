@@ -17,6 +17,9 @@
     "crop",
     "format"
   ],
+    "files": [
+        "dist/"
+    ],
   "author": "Robert Corponoi",
   "license": "MIT",
   "bugs": {
